@@ -1,0 +1,13 @@
+.profile__avatar {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+}
+
+@media screen and (max-width: 550px) {
+   .profile__avatar {
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+   }
+}
